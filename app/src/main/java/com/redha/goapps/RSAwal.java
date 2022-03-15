@@ -43,7 +43,7 @@ public class RSAwal extends ListActivity {
                 a = new Intent(Intent.ACTION_VIEW,Uri.parse(lokasirs));
 
             }else if(pilihan.equals("Website")){
-                String website = "http://www.awal-bros.net";
+                String website = "https://haloawalbros.com";
                 a = new Intent(Intent.ACTION_VIEW,Uri.parse(website));
 
             }else if(pilihan.equals("Info di Google")){
